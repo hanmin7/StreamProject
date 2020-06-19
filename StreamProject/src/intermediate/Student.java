@@ -10,6 +10,9 @@ public class Student implements Comparable<Student> {
 		this.score = score;
 	}
 	
+	public int getScore() {
+		return this.score;
+	}
 	
 	@Override
 	public String toString() {
