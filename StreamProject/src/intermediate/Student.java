@@ -1,6 +1,6 @@
 package intermediate;
 
-public class Student {
+public class Student implements Comparable<Student> {
 	private String name;
 	private int score;
 	
@@ -33,5 +33,14 @@ public class Student {
 	}
 	
 	
+	//(SortExample파일 하면서 수정됨 +)
+	@Override
+	public int compareTo(Student o) {
+		//-1(음수) 오름차순
+		//1(양수) 내림차순
+		// 0
+//		return this.score - o.score; //o는 매개값으로 들어오는 비교대상   (점수기준)
+		return this.name.compareTo(o.name);  // compareTo라는 메소드는 문자열의 코드값을 가지고 비교함 (이름기준)
+	}
 	
 }
