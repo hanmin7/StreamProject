@@ -5,6 +5,7 @@ import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+
 public class MappingExample {
 	public static void main(String[] args) {
 //		Stream.of(1,2,3).flatMap(new Function<Integer, Stream<Integer>>() { //flatMap (인풋값, 리턴값)

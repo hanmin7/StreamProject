@@ -1,4 +1,4 @@
-package intermediate;
+package terminal;
 
 import java.util.Arrays;
 import java.util.OptionalDouble;

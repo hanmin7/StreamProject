@@ -3,6 +3,7 @@ package intermediate;
 import java.util.List;
 import java.util.function.Predicate;
 
+
 public class FilterExample {
 	public static void main(String[] args) {
 		List<Employee> employees = Employee.persons();

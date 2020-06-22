@@ -1,9 +1,11 @@
-package intermediate;
+package terminal;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.IntBinaryOperator;
 import java.util.function.ToIntFunction;
+
+import intermediate.Student;
 
 public class AggregateExample2 {
 	public static void main(String[] args) {

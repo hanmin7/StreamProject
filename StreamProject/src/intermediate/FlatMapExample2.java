@@ -5,6 +5,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.*;
 
+
 public class FlatMapExample2 {
 	public static void main(String[] args) {
 //		Stream<Integer> stream = Stream.of(1, 2, 3);

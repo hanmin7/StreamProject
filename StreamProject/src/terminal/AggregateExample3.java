@@ -1,8 +1,11 @@
-package intermediate;
+package terminal;
 
 import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
+
+import intermediate.Employee;
+
 
 public class AggregateExample3 {
 	public static void main(String[] args) {

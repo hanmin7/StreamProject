@@ -7,6 +7,7 @@ import java.util.function.Predicate;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+
 public class MappingExample2 {
 	public static void main(String[] args) {
 //		List<Employee> employees = Employee.persons();
