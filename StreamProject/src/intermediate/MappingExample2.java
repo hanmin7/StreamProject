@@ -36,10 +36,10 @@ public class MappingExample2 {
 //		}).flatMap(new Function<String, Stream<Character>>() { //flatmap : string -> character Stream으로
 //			@Override
 //			public Stream<Character> apply(String t) { 
-//				return IntStream.range(0, t.length()) //length 길이 만큼의 int타입 스트림 생성 Hong -> h,o,n 까지 (마지막포함x 무슨 close어쩌구해야지 끝에꺼 까지포함)
+//				return IntStream.range(0, t.length()) //length 길이 만큼의 int타입 스트림 생성 Hong -> h,o,n,g (무슨 close어쩌구?)
 //					.mapToObj(new IntFunction<Character>() {
 //						@Override
-//						public Character apply(int value) { //위에서 만들었는 0,1,2  인트받아서 캐릭터타입으로 
+//						public Character apply(int value) { //위에서 만들었는 0,1,2...  인트받아서 캐릭터타입으로 
 //							return t.charAt(value); 
 //						}
 //				});
